@@ -5,9 +5,19 @@ const students = [
     {id : 51 , name : ' dipjiool'}
 ] ;
 
-const name = students.map(s=> s.name);
-const ids = students.map(s=> s.id) ;
-const bigger = students.filter( s=> s.id > 40);
-const biggerOne = students.find( s=> s.id > 40);
+// const name = students.map(s=> s.name);
+// const ids = students.map(s=> s.id) ;
+// const bigger = students.filter( s=> s.id > 40);
+// const biggerOne = students.find( s=> s.id > 40);
 
-console.log(biggerOne); 
+// console.log(biggerOne); 
+
+const name = students.map(s =>s.name);
+const ids = students.map(s=>s.id)
+const bigger = students.filter(s=> s.id > 40 );
+const biggerOne = students.find(s=> s.id > 40);
+console.log(biggerOne);
+console.log(bigger);
+console.log(name);
+console.log(ids) ;
+

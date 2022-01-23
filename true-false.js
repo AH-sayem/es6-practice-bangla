@@ -10,8 +10,8 @@
 
 // '0' , ' '  , [] 
 
-let name =  0 ;
-console.log(name );
+let name =  12 ;
+console.log(name || name == 0);
 
 if(name)
 {
